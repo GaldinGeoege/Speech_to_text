@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Speech Converter</title>
+</head>
+<body>
+    <h1>Text-to-Speech Converter</h1>
+    <form method="POST" action="/">
+        <label for="speech">Enter text to convert:</label>
+        <textarea name="speech" id="speech" rows="4" cols="50" required></textarea>
+        
+        <label for="voices">Select voice gender:</label>
+        <select name="voices" id="voices">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        
+        <br>
+        <input type="submit" value="Convert to Speech">
+    </form>
+</body>
+</html>
